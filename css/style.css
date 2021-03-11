@@ -1,0 +1,65 @@
+:root {
+  --secondary-color: #00c9c8;
+  --black: rgb(36, 36, 36);
+  --white: rgb(216, 216, 216);
+}
+html {
+  scroll-behavior: smooth;
+}
+
+span {
+  color: var(--secondary-color);
+}
+
+body {
+  background-color: var(--black);
+  color: var(--white);
+}
+.navbar {
+  background-color: var(--black);
+  color: var(--white);
+}
+.navbar-nav {
+  position: relative;
+}
+
+.london {
+  background-image: url("../img/london.png");
+
+  background-position: center;
+  background-size: auto;
+  margin-top: 64px;
+}
+.about-link {
+  cursor: pointer;
+}
+.about-link:hover {
+  color: #6bffff;
+}
+#skills {
+  background-color: var(--white);
+  padding-bottom: 32px;
+  color: var(--black);
+}
+#contact {
+  background-color: var(--secondary-color);
+}
+#contact svg {
+  fill: var(--black);
+}
+
+.black {
+  color: var(--black);
+}
+
+.white {
+  color: var(--white);
+}
+
+.ptb {
+  padding-top: 64px;
+  padding-bottom: 90px;
+}
+.secondary {
+  color: var(--secondary-color);
+}
