@@ -29,6 +29,10 @@ mark {
   color: var(--secondary-color);
 }
 
+#links a {
+  color: var(--white);
+}
+
 .london {
   background-image: url("../img/london.png");
   background-position: center;
