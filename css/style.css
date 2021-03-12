@@ -1,5 +1,5 @@
 :root {
-  --secondary-color: #00c9c8;
+  --secondary-color: deeppink;
   --black: rgb(36, 36, 36);
   --white: rgb(216, 216, 216);
 }
@@ -15,12 +15,18 @@ body {
   background-color: var(--black);
   color: var(--white);
 }
+
+mark {
+  background-color: yellow;
+  color: var(--black);
+}
 .navbar {
   background-color: var(--black);
   color: var(--white);
 }
-.navbar-nav {
-  position: relative;
+
+#links a:hover {
+  color: var(--secondary-color);
 }
 
 .london {
@@ -28,24 +34,28 @@ body {
 
   background-position: center;
   background-size: auto;
-  margin-top: 64px;
+  margin-top: 60px;
 }
 .about-link {
   cursor: pointer;
 }
 .about-link:hover {
-  color: #6bffff;
+  color: yellow;
 }
 #skills {
   background-color: var(--white);
   padding-bottom: 32px;
   color: var(--black);
 }
+
+#works a {
+  color: var(--secondary-color);
+}
 #contact {
   background-color: var(--secondary-color);
 }
 #contact svg {
-  fill: var(--black);
+  fill: var(--white);
 }
 
 .black {

@@ -34,8 +34,8 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav ml-auto">
-            <a class="nav-link mb-0" href="#about">ABOUT </a>
+          <div class="navbar-nav ml-auto" id="links">
+            <a class="nav-link" href="#about">ABOUT </a>
             <a class="nav-link" href="#skills">SKILLS</a>
             <a class="nav-link" href="#works">WORKS</a>
             <a class="nav-link active" href="#contact">CONTACT</a>
@@ -49,8 +49,12 @@
     <div class="london p-5">
       <div class="jumbotron london jumbotron-fluid">
         <div class="container">
-          <h1 class="display-4">A Junior Front End Developer</h1>
-          <span class="lead"><mark>From Italy to London with Love.</mark></p>
+          <h1 class="display-4"><mark> Junior Front End Developer</mark></h1>
+          <p>
+            <span class="lead"
+              ><mark>From Italy to London with Love.</mark></span
+            >
+          </p>
         </div>
       </div>
     </div>
@@ -87,7 +91,7 @@
                 height="24"
                 viewBox="0 0 24 24"
                 class="mr-3"
-                fill="#00C9C8"
+                fill="var(--secondary-color)"
               >
                 <path
                   d="M12 12.713l-11.985-9.713h23.971l-11.986 9.713zm-5.425-1.822l-6.575-5.329v12.501l6.575-7.172zm10.85 0l6.575 7.172v-12.501l-6.575 5.329zm-1.557 1.261l-3.868 3.135-3.868-3.135-8.11 8.848h23.956l-8.11-8.848z"
@@ -108,8 +112,8 @@
     <div id="skills">
       <div class="container ptb">
         <div class="row">
-          <div class="col mt-4 mb-3">
-            <h2>SKILLS</h2>
+          <div class="col mt-4 mb-3 text-center">
+            <h2><mark>SKILLS</mark></h2>
           </div>
         </div>
         <div class="row">
@@ -575,8 +579,8 @@
     <div id="works">
       <div class="container ptb">
         <div class="row">
-          <div class="col mt-4 mb-5">
-            <h2>WORKS</h2>
+          <div class="col mt-4 mb-5 text-center">
+            <h2><mark>WORKS</mark></h2>
           </div>
         </div>
 
@@ -586,7 +590,7 @@
             <div class="card mb-3 black">
               <img src="img/project1.png" class="card-img-top" alt="..." />
               <div class="card-body">
-                <h5 class="card-title">Dashboard App</h5>
+                <h5 class="card-title">DASHBOARD APP</h5>
                 <p class="card-text">HTML | CSS | JS</p>
                 <a
                   href="https://github.com/marcorix/techdegree-project-7"
@@ -609,7 +613,7 @@
             <div class="card mb-4 black">
               <img src="img/project2.png" class="card-img-top" alt="..." />
               <div class="card-body">
-                <h5 class="card-title">Employee Directory</h5>
+                <h5 class="card-title">EMPLOYEE DIRECTORY</h5>
                 <p class="card-text">HTML | CSS | JS</p>
                 <a
                   href="https://github.com/marcorix/techdegree-project-8"
@@ -631,7 +635,7 @@
             <div class="card mb-4 black">
               <img src="img/project3.png" class="card-img-top" alt="..." />
               <div class="card-body">
-                <h5 class="card-title">Photo Gallery</h5>
+                <h5 class="card-title">PHOTO GALLERY</h5>
                 <p class="card-text">HTML | CSS | JS</p>
                 <a
                   href="https://github.com/marcorix/techdegree-project-5"
@@ -653,7 +657,7 @@
             <div class="card mb-4 black">
               <img src="img/project4.png" class="card-img-top" alt="..." />
               <div class="card-body">
-                <h5 class="card-title">Game Show App</h5>
+                <h5 class="card-title">GAME SHOW APP</h5>
                 <p class="card-text">HTML | CSS | JS</p>
                 <a
                   href="https://github.com/marcorix/techdegree-project-6"
@@ -670,6 +674,53 @@
               </div>
             </div>
           </div>
+
+          <!-- PROJECT 5 -->
+          <div class="col-md-6 col-lg-4">
+            <div class="card mb-4 black">
+              <img src="img/project5.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">ONLINE STYLE GUIDE</h5>
+                <p class="card-text">HTML | CSS | JS</p>
+                <a
+                  href="https://github.com/marcorix/techdegree-project-4"
+                  class="card-link"
+                  target="_blank"
+                  >View Code</a
+                >
+                <a
+                  href="https://marcorix.github.io/techdegree-project-4/"
+                  class="card-link"
+                  target="_blank"
+                  >View Online</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- PROJECT 6 -->
+          <div class="col-md-6 col-lg-4">
+            <div class="card mb-4 black">
+              <img src="img/project6.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">PORTFOLIO</h5>
+                <p class="card-text">HTML | CSS</p>
+                <a
+                  href="https://github.com/marcorix/techdegree-project-2"
+                  class="card-link"
+                  target="_blank"
+                  >View Code</a
+                >
+                <a
+                  href="https://marcorix.github.io/techdegree-project-2/"
+                  class="card-link"
+                  target="_blank"
+                  >View Online</a
+                >
+              </div>
+            </div>
+          </div>
+
           <!-- /projects -->
         </div>
       </div>
@@ -679,6 +730,12 @@
     <!-- Contact -->
     <div id="contact">
       <div class="container ptb">
+        <div class="row">
+          <div class="col mt-4 mb-3 text-center">
+            <h2><mark>CONTACT</mark></h2>
+          </div>
+        </div>
+
         <div class="row pt-4">
           <div class="col text-center">
             <a href="https://www.facebook.com/" target="_blank">
