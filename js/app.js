@@ -2,10 +2,10 @@
 
 const logo = document.querySelector(".navbar-brand");
 const logosArray = [
-  `< Marco<span class="secondary">Rix</span> >`,
-  `["Marco", <span class="secondary">"Rix"</span>]`,
-  `Marco: <span class="secondary">Rix;</span>`,
-  "${ marco<span class=`secondary`>Rix </span>}",
+  `< Marco<span class="secondary">Ricci</span> >`,
+  `["Marco", <span class="secondary">"Ricci"</span>]`,
+  `Marco: <span class="secondary">Ricci;</span>`,
+  "${ marco<span class=`secondary`>_ricci </span>}",
 ];
 
 let indexCounter = 0;
@@ -27,16 +27,11 @@ logo.addEventListener("click", () => {
 // ABOUT ME interactivity
 
 const treehouseBtn = document.getElementById("treehouse");
-const udemyBtn = document.getElementById("udemy");
 const photo = document.getElementById("about-photo");
 const marco = document.getElementById("marco");
 
 treehouseBtn.addEventListener("click", () => {
   photo.innerHTML = `<img src="img/treehouse.png" class="img-fluid w-100" alt="treehouse" />`;
-});
-
-udemyBtn.addEventListener("click", () => {
-  photo.innerHTML = `<img src="img/udemy.png" class="img-fluid w-100" alt="treehouse" />`;
 });
 
 marco.addEventListener("click", () => {

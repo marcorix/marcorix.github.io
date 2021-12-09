@@ -39,16 +39,35 @@ mark {
   background-size: auto;
   margin-top: 60px;
 }
+
+.lead {
+  color:white;
+}
+#about a {
+  color: var(--secondary-color);
+}
+#about a:hover {
+  color: yellow;
+  text-decoration: none;
+}
 .about-link {
   cursor: pointer;
+  color: var(--secondary-color);
 }
 .about-link:hover {
   color: yellow;
+  text-decoration: none;
 }
+
 #skills {
   background-color: var(--white);
   padding-bottom: 32px;
   color: var(--black);
+}
+
+#skills img {
+  height: 80px;
+  width: 80px;
 }
 
 #works a {
@@ -56,8 +75,12 @@ mark {
 }
 #contact {
   background-color: var(--secondary-color);
+
 }
 #contact svg {
+  fill: var(--black);
+}
+#contact svg:hover {
   fill: var(--white);
 }
 
@@ -75,4 +98,10 @@ mark {
 }
 .secondary {
   color: var(--secondary-color);
+}
+
+
+.works {
+  height: 215px;
+  width: 348px;
 }
